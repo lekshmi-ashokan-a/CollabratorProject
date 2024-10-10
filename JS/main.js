@@ -10,7 +10,7 @@ const darkerTheme = document.querySelector('.darker-theme');
 
 // Event Listeners
 
-toDoBtn.addEventListener('clicking', addToDo);
+toDoBtn.addEventListener('click', addToDo);
 toDoList.addEventListener('click', deletecheck);
 document.addEventListener("DOMContentLoaded", getTodos);
 standardTheme.addEventListener('click', () => changeTheme('standard'));
